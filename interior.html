@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Terms &amp; Conditions - Interior App</title>
+  <style>
+    :root {
+      --bg-top: #efe7dc;
+      --bg-bottom: #a39172;
+      --surface: rgba(244, 236, 224, 0.92);
+      --surface-soft: rgba(255, 250, 243, 0.84);
+      --border: rgba(138, 101, 0, 0.18);
+      --text: #2f2615;
+      --muted: #5c523e;
+      --accent: #8a6500;
+      --accent-strong: #352a14;
+      --shadow: 0 24px 64px rgba(84, 63, 17, 0.16);
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      min-height: 100vh;
+      font-family: Arial, sans-serif;
+      color: var(--text);
+      line-height: 1.75;
+      background:
+        radial-gradient(circle at top right, rgba(255, 255, 255, 0.36), transparent 24%),
+        linear-gradient(180deg, var(--bg-top) 0%, #dac8ad 40%, var(--bg-bottom) 100%);
+      padding: 28px 16px;
+    }
+
+    .wrapper {
+      max-width: 980px;
+      margin: 0 auto;
+    }
+
+    .hero {
+      margin-bottom: 20px;
+      padding: 28px;
+      border: 1px solid var(--border);
+      border-radius: 24px;
+      background: linear-gradient(135deg, rgba(255, 255, 255, 0.52), rgba(244, 236, 224, 0.92));
+      box-shadow: var(--shadow);
+    }
+
+    .eyebrow {
+      display: inline-block;
+      margin-bottom: 16px;
+      padding: 8px 14px;
+      border-radius: 999px;
+      background: rgba(138, 101, 0, 0.1);
+      color: var(--accent);
+      font-size: 0.82rem;
+      font-weight: 700;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+    }
+
+    h1 {
+      font-size: clamp(2rem, 4vw, 3.4rem);
+      line-height: 1.06;
+      letter-spacing: -0.03em;
+      margin-bottom: 12px;
+      color: var(--accent-strong);
+    }
+
+    .subtitle {
+      max-width: 760px;
+      color: var(--muted);
+      font-size: 1.02rem;
+    }
+
+    .document {
+      border: 1px solid var(--border);
+      border-radius: 24px;
+      background: var(--surface);
+      box-shadow: var(--shadow);
+      overflow: hidden;
+    }
+
+    .document-head {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px 24px;
+      padding: 22px 28px;
+      border-bottom: 1px solid var(--border);
+      background: var(--surface-soft);
+    }
+
+    .meta {
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    .meta strong {
+      color: var(--accent-strong);
+    }
+
+    .content {
+      padding: 30px 28px;
+    }
+
+    .section {
+      padding-bottom: 24px;
+      margin-bottom: 24px;
+      border-bottom: 1px solid rgba(138, 101, 0, 0.12);
+    }
+
+    .section:last-child {
+      margin-bottom: 0;
+      padding-bottom: 0;
+      border-bottom: 0;
+    }
+
+    h2 {
+      margin-bottom: 12px;
+      font-size: 1.3rem;
+      color: var(--accent-strong);
+    }
+
+    p {
+      margin-bottom: 14px;
+      color: var(--muted);
+    }
+
+    p:last-child {
+      margin-bottom: 0;
+    }
+
+    ul {
+      margin: 10px 0 16px 20px;
+      color: var(--muted);
+    }
+
+    li {
+      margin-bottom: 10px;
+    }
+
+    .contact-box {
+      margin-top: 8px;
+      padding: 18px;
+      border-radius: 18px;
+      background: rgba(138, 101, 0, 0.06);
+      border: 1px solid rgba(138, 101, 0, 0.14);
+    }
+
+    strong {
+      color: var(--accent-strong);
+    }
+
+    @media (max-width: 640px) {
+      body {
+        padding: 16px 10px;
+      }
+
+      .hero,
+      .document-head,
+      .content {
+        padding-left: 18px;
+        padding-right: 18px;
+      }
+
+      .hero,
+      .document {
+        border-radius: 18px;
+      }
+
+      h2 {
+        font-size: 1.12rem;
+      }
+
+      .subtitle,
+      p,
+      li,
+      .meta {
+        font-size: 0.95rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrapper">
+    <section class="hero">
+      <span class="eyebrow">Interior App</span>
+      <h1>Terms &amp; Conditions</h1>
+      <p class="subtitle">
+        Welcome to the Interior app. By accessing or using the app, you agree to comply with these
+        Terms &amp; Conditions.
+      </p>
+    </section>
+
+    <section class="document">
+      <div class="document-head">
+        <div class="meta"><strong>Document:</strong> Interior App Terms</div>
+        <div class="meta"><strong>Last Updated:</strong> April 2026</div>
+        <div class="meta"><strong>Audience:</strong> App users</div>
+      </div>
+
+      <div class="content">
+        <section class="section">
+          <h2>1. Use of the App</h2>
+          <p>
+            The Interior app is designed for managing interior design projects, site coordination,
+            task progress, and project-related records.
+          </p>
+          <p>
+            With this app, users can share project updates, track progress, manage tasks, and save
+            and share project-related documents.
+          </p>
+          <p>
+            As a user, you will use the app only for legitimate purposes.
+          </p>
+        </section>
+
+        <section class="section">
+          <h2>2. User Account</h2>
+          <p>Users may be required to create an account to use some features of the app.</p>
+          <p>You agree to:</p>
+          <ul>
+            <li>Provide accurate information during registration</li>
+            <li>Keep your login information secure</li>
+            <li>Notify us of any unauthorized use</li>
+          </ul>
+          <p>You are solely responsible for all activities that occur through your account.</p>
+        </section>
+
+        <section class="section">
+          <h2>3. User Content</h2>
+          <p>Users may upload the following content through the app:</p>
+          <ul>
+            <li>Project updates</li>
+            <li>Images</li>
+            <li>Documents</li>
+            <li>Comments</li>
+          </ul>
+          <p>By uploading content, you confirm that:</p>
+          <ul>
+            <li>You have the right to share the content</li>
+            <li>It does not violate any law or the rights of a third party</li>
+          </ul>
+          <p>
+            We reserve the right to remove content that violates these Terms &amp; Conditions if
+            necessary.
+          </p>
+        </section>
+
+        <section class="section">
+          <h2>4. Intellectual Property</h2>
+          <p>
+            All designs, software, logos, and features of the Interior app are protected by
+            applicable intellectual property laws.
+          </p>
+          <p>Users may not copy or distribute any part of the app without permission.</p>
+        </section>
+
+        <section class="section">
+          <h2>5. Acceptable Use</h2>
+          <p>You agree to:</p>
+          <ul>
+            <li>Not use the app for any illegal purpose</li>
+            <li>Not upload harmful or misleading content</li>
+            <li>Not attempt unauthorized access to the system</li>
+            <li>Not attempt to disrupt the operation of the app</li>
+          </ul>
+        </section>
+
+        <section class="section">
+          <h2>6. Availability of Service</h2>
+          <p>
+            We try to keep the Interior app available, but the service may be temporarily down for
+            maintenance, updates, or technical reasons.
+          </p>
+        </section>
+
+        <section class="section">
+          <h2>7. Limitation of Liability</h2>
+          <p>
+            The Interior app is provided on an as-is basis. We are not liable for any direct or
+            indirect damages resulting from the use of the app.
+          </p>
+        </section>
+
+        <section class="section">
+          <h2>8. Account Termination</h2>
+          <p>
+            If any user violates these Terms, we reserve the right to suspend or terminate their
+            account.
+          </p>
+        </section>
+
+        <section class="section">
+          <h2>9. Changes to Terms</h2>
+          <p>
+            We may change these Terms &amp; Conditions from time to time. The updated terms will be
+            posted on the app or website.
+          </p>
+        </section>
+
+        <section class="section">
+          <h2>10. Contact</h2>
+          <p>
+            If you have any questions about these Terms &amp; Conditions, you can contact us at:
+          </p>
+          <div class="contact-box">
+            <p><strong>Email:</strong> support@interior.app</p>
+            <p><strong>App:</strong> Interior App</p>
+          </div>
+        </section>
+      </div>
+    </section>
+  </div>
+</body>
+</html>
